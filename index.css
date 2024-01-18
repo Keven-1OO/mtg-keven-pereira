@@ -1,0 +1,39 @@
+{margin: 0; padding: 0;}
+body
+{
+    color: aliceblue;
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 15% 1fr;
+    grid-template-rows: 70px 1fr 70px;
+    grid-template-areas: 
+        "zh     zh"
+        "zn     zsec"
+        "zf     zf"
+    ;
+}
+/ --------------------- MAQUETACIÓN --------------------- /
+header
+{
+    grid-area: zh;
+    background-color: #1e1b26;
+    border: 1px solid #deceea;
+}
+nav
+{
+    grid-area: zn;
+    background-color: #4c4d65;
+    border: 1px solid #deceea;
+}
+section
+{
+    grid-area: zsec;
+    background-color: #8286ac;
+}
+footer
+{
+    grid-area: zf;
+    background-color: #1e1b26;
+    border: 1px solid #deceea;
+}
+/ --------------------- MAQUETACIÓN --------------------- */
